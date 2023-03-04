@@ -118,6 +118,6 @@ Install the prerequisites:
   * ['Reveal-Jekyll template'](https://github.com/sylhare/Reveal-Jekyll) created by [Sylhare](https://github.com/sylhare)
   * ['git workflow'](https://twitter.com/allison_horst/status/1563210538510737409) created by [Allison Horst](https://github.com/allisonhorst)
   * ['In case of fire'](https://github.com/louim/in-case-of-fire) created by [Louis-Michel Couture](https://github.com/louim)
-  * ['QR for FSFS'] is created using [QR code Generator](https://www.the-qrcode-generator.com/) 
+  * 'QR for FSFS' is created using [QR code Generator](https://www.the-qrcode-generator.com/) 
 * Bonus:
   * [Free Software, Free Society](https://www.tedxgeneva.net/talks/richard-stallman-free-software-free-society/) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at [TEDxGeneva](https://www.tedxgeneva.net/)
