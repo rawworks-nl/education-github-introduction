@@ -1,14 +1,14 @@
 # Agenda
 
-* [Why Github?](#why-github)
-* [What is Github?](#what-is-github)
+* [Why GitHub?](#why-github)
+* [What is GitHub?](#what-is-github)
 * [How it works](#how-it-works)
 * [Workshop exercise](#workshop)
 * [Preparation](#preparation)
 * [Hands-on lab](#hands-on)
 
 
-# Why Github?
+# Why GitHub?
 
 GitHub allows you to collaborate on automation/code projects. There are several reasons why this is beneficial for you and me.
 
@@ -26,20 +26,20 @@ __Overall, GitHub is a valuable tool for people who want to collaborate on code,
 
 ---
 
-# What is Github?
+# What is GitHub?
 
-* Git is a version control software. You can use to maintain change history while you keep changing your code. Also it is helpful if more people are involved in the same project.
+* GitHub is a web-based platform that provides hosting for Git repositories. It allows developers to store their code in a central location and collaborate with others on software development projects. GitHub provides a wide range of tools and features for managing code changes, tracking issues, reviewing code, and integrating with other tools and services. It is one of the most popular platforms for open-source development and is widely used by developers and organizations around the world. GitHub is maintained by Microsoft.
 
-* GitHub - It's where you keep copy of your code (with change history) so that people can access your code anytime without having to come to your computer. It is maintained by Microsoft.
+* 'git' is a distributed version control system that allows you to track changes to files and collaborate with others on software development projects. It provides a way to manage code changes, merge changes made by multiple people, and keep track of different versions of your code over time. Git is widely used in software development and is known for its speed, flexibility, and powerful features. 'git' is created in 2005 by Linus Torvald.
 
-* Gitlab - Same as GitHub, but being maintained by different group.
+* GitLab is a web-based platform that provides hosting for Git repositories, similar to GitHub. However, GitLab offers additional features such as continuous integration and deployment, built-in code quality and security analysis, and project management tools. GitLab can be self-hosted or used as a cloud-based service, and it offers both free and paid plans for individuals and teams. It is a popular alternative to GitHub, particularly for organizations that require more advanced development and collaboration features. GitLab is maintained by GitLab Inc.
 
-As stated above; GitHub is a collaboration tool for people working on automation/code projects.
+# How it works:
 
 To fully understand and use GitHub, it's important to have a basic understanding of the following parts:
 
 * Code (Repository)
-  * Privateitle
+  * Private
   * Public
 * Issues
 * Pull request
@@ -50,11 +50,8 @@ To fully understand and use GitHub, it's important to have a basic understanding
 * Insights
 * Settings (where the repo can be deleted, confirmation)
 
-# How it works:
 
-![Emergency](assets/img/git-workflow.png)
-
-  * Text based on [markdown language](https://www.markdownguide.org/cheat-sheet/)
+  * Text-based on [markdown language](https://www.markdownguide.org/cheat-sheet/)
   * Clone the repository
     * Start by cloning the repository to your local machine.
     * Create a new branch: Always create a new branch before starting any work.
@@ -87,45 +84,40 @@ Install the prerequisites:
 
 ## Hands-on:
 
-<ol>
-<li> <details><summary>Hello</summary><blockquote>
-  <details><summary>World</summary><blockquote>
-    :smile:
-  </blockquote></details>
-</blockquote></details>
-</li>
-<li> <details><summary>Hello</summary><blockquote>
-  <details><summary>World</summary><blockquote>
-    :smile:
-  </blockquote></details>
-</blockquote></details>
-</li>
-<li> <details><summary>Hello</summary><blockquote>
-  <details><summary>World</summary><blockquote>
-    :smile:
-  </blockquote></details>
-</blockquote></details>
-</li>
-</ol>
-
-
 * Create a new private or public repository.
 * Create README.MD as heading type `H1`.Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 * Customize README.MD as a sub-heading.
 * Customize README.MD by adding an index or [table of contents](https://www.markdownguide.org/hacks/#table-of-contents) to the sub-heading.
 * Create feature branch
 * Create PR to own main repo, explain 4 eyes principle
-* Create Github action workflow with Linux and Windows VM (explain that this is an Azure VM, 2000 minutes free per month to use)
-* Github action workflow add action download repository files
-* Github action workflow add export to text file Linux and Windows
-* Github action workflow add upload artifact
-* Github action workflow add dependency build->release
-* Github action workflow add pre-release
+* Create GitHub action workflow with Linux and Windows VM (explain that this is an Azure VM, 2000 minutes free per month to use)
+* GitHub action workflow add action download repository files
+* GitHub action workflow add export to text file Linux and Windows
+* GitHub action workflow add upload artifact
+* GitHub action workflow add dependency build->release
+* GitHub action workflow add pre-release
 
-## First code of conduct:
+## Favorable conduct
 
-![Emergency](assets/img/git-in-case-of-fire.png)
+<ul>
+  <li> <details><summary>Codes of conduct</summary><blockquote>
+    <details><summary>important; DBAD!</summary><blockquote>[License terms](https://dbad-license.org/)</blockquote></details>
+    <details><summary>In case of fire</summary><blockquote>![Emergency](assets/img/git-in-case-of-fire.png)</blockquote></details>
+  </blockquote></details>
+  </li>
+</ul>
 
 # Wrap-up
 
 [Questions?](https://rawworks-nl.github.io/education-github-introduction/#/5)
+
+###### Credits
+
+  * Ideas and content by [Etienne Haarsma](https://github.com/Etienne-RAW) and [Berry de Jager](https://github.com/berrydejager) with the help of [chatGPT](https://chat.openai.com)
+* Visuals:
+  * ['Reveal-Jekyll template'](https://github.com/sylhare/Reveal-Jekyll) created by [Sylhare](https://github.com/sylhare)
+  * ['git workflow'](https://twitter.com/allison_horst/status/1563210538510737409) created by [Allison Horst](https://github.com/allisonhorst)
+  * ['In case of fire'](https://github.com/louim/in-case-of-fire) created by [Louis-Michel Couture](https://github.com/louim)
+  * ['QR for FSFS'] is created using [QR code Generator](https://www.the-qrcode-generator.com/) 
+* Bonus:
+  * [Free Software, Free Society](https://www.tedxgeneva.net/talks/richard-stallman-free-software-free-society/) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at [TEDxGeneva](https://www.tedxgeneva.net/)
