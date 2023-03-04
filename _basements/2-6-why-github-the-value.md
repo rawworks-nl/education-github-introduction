@@ -1,5 +1,5 @@
 ---
-slide: 20-why-github
+slide: 2-why-github
 ---
 ## The Value of GitHub
 

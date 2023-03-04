@@ -1,5 +1,5 @@
 ---
-slide: 30-what-is-github
+slide: 3-what-is-github
 ---
 ## GitHub
 
