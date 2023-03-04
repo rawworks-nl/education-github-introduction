@@ -1,153 +1,131 @@
-![Reveal Jekyll](./reveal-jekyll.png)
+# Agenda
 
-[![Build Status](https://travis-ci.org/sylhare/Reveal-Jekyll.svg?branch=master)](https://travis-ci.org/sylhare/Reveal-Jekyll)
-[![Gem Version](https://badge.fury.io/rb/reveal-jekyll.svg)](https://badge.fury.io/rb/reveal-jekyll)
+* [Why Github?](#why-github)
+* [What is Github?](#what-is-github)
+* [How it works](#how-it-works)
+* [Workshop exercise](#workshop)
+* [Preparation](#preparation)
+* [Hands-on lab](#hands-on)
 
-[Reveal.js](https://github.com/hakimel/reveal.js) Web presentation served with jekyll.
-Find all the reveal.js [documentation](https://revealjs.com/) the default plugins are already package in reveal jekyll.
-If you have any request, problems please open an [issue](https://github.com/sylhare/Reveal-Jekyll/issues). 
-Feel free to implement any change and open through pull requests. 😉
 
-## Set up
+# Why Github?
 
-Make sure to install bundle which will ease the installation of jekyll:
+GitHub allows you to collaborate on automation/code projects. There are several reasons why this is beneficial for you and me.
 
-```bash
-gem install bundle
-bundle install
-```
+  * Version control: Did you ever create a script and it doesn´t work anymore after some changes? Git is a powerful version control system that allows you to track and view changes to your scripts/code over time.
 
-Run the presentation ()it zill be one [localhost:4000](localhost:4000) using
+  * Collaboration: GitHub provides a platform to collaborate on code with others. Developers can work on the same codebase, manage issues, and review each other's code.
 
-```bash
-bundle exec jekyll serve
-```
+  * Open source: GitHub is home to a vast number of open-source projects. These projects are available to anyone to use, modify, and contribute to, see: ['Free software, Free society' by RMS](https://www.youtube.com/watch?v=Ag1AKIl_2GM)
 
-## Create your presentation
+  * Community: GitHub has a large and active community of people who share code, collaborate on projects, and help each other with technical issues.
 
-### Raw Markdown
+  * Integration: GitHub integrates with a wide range of tools and services, making it easy to automate tasks like testing, building, and deploying code.
 
-Take a look at the [example](https://github.com/sylhare/Reveal-Jekyll/blob/raw/index.html),
-In [`index.html`](https://github.com/sylhare/Reveal-Jekyll/blob/raw/index.html) use the `layout: raw` and then you can create your slides directly in the file using markdown:
-
- - `___`: Makes a basement slide
- - `---`: Makes the next slide
-
-#### One file slides example
-
-Your index.html could look like:
-
-```
----
-layout: raw
----
-
-## First slide
----
-## Second slide
-___
-Second slide's basement
----
-## Third slide
-```
-
-### Using Jekyll capabilities
-
-Take a look at the [example slides](https://github.com/sylhare/Reveal-Jekyll/tree/master/_slides) and [basements](https://github.com/sylhare/Reveal-Jekyll/tree/master/_basements),
-In `index.html` use the `layout: presentation`. It will use the `_slides` and `_basements` folder to create the presentation.
- 
-#### Slide
-
-Use the `_slides` folder to create a file per slide in markdown. 
-
-```yaml
+__Overall, GitHub is a valuable tool for people who want to collaborate on code, contribute to open-source projects, and manage their code more effectively.__
 
 ---
-background: ...                 # Optional to put an image or a color as the background
-video: "http://video-link.mp4"  # Optional to put a video as the background
-transition: slide               # Optional change the transition type for this slide
----
 
-Slide content in markdown
-```
+# What is Github?
 
-> Don't forget to add the two `---`.
+* Git is a version control software. You can use to maintain change history while you keep changing your code. Also it is helpful if more people are involved in the same project.
 
-To order the presentation you can do something like `01-First-slide-title.md`, `02-Second-slide-title.md`.
+* GitHub - It's where you keep copy of your code (with change history) so that people can access your code anytime without having to come to your computer. It is maintained by Microsoft.
 
-#### Basement slides
+* Gitlab - Same as GitHub, but being maintained by different group.
 
-Basement slides can be put in the `_basements` folder.
+As stated above; GitHub is a collaboration tool for people working on automation/code projects.
 
-The Basement slides will be accessible using the down arrow when on a particular slide. They are connected by the `slide` attribute which is the filename of the slide.
+To fully understand and use GitHub, it's important to have a basic understanding of the following parts:
 
-They are the sub sections of your presentation:
+* Code (Repository)
+  * Privateitle
+  * Public
+* Issues
+* Pull request
+* Actions
+* Projects
+* Wiki
+* Security
+* Insights
+* Settings (where the repo can be deleted, confirmation)
 
-```yaml
+# How it works:
 
----
-slide: slide-title
----
- 
-Content of the Basement slide in markdown
+![Emergency](assets/img/git-workflow.png)
 
-```
+  * Text based on [markdown language](https://www.markdownguide.org/cheat-sheet/)
+  * Clone the repository
+    * Start by cloning the repository to your local machine.
+    * Create a new branch: Always create a new branch before starting any work.
+    * Make changes: Now you can make any changes you need to make to the 'local branch' files on your laptop.
+    * Stage changes: Once you have made your changes, you need to stage them. Make sure to stage all the files which are related to specific functionality, see `breaking commits`. __---- NEEDS LINK TO RELEVANT ITEM ----__
+    * Commit changes: Once you have staged your changes, you can commit them in your local git clone. Remember to add a meaningful commit message that describes the changes you made.
+    * Merge changes: If you are working in a team, someone else may have made changes to the same branch. In that case, you will need to merge their changes with yours before pushing.
+    * Push changes: Finally, you need to push your changes to the remote repository. This makes your changes available to others, publicly or privately.
+    * Pull changes: Before you start working again, you should always pull the latest changes from the remote repository.
 
-e.g:
+It's a best practice to always commit and push your changes at the end of the working day/shift, so that the repo is always up to date.
 
-- For a slide called `02-slide.md`
-- The basement of that slide `02-1-basement.md` should have the attribute `slide: 02-slide`
+# Workshop
 
-#### Config
+What you are going to do? 
 
-Configure Reveal.js in teh `_config.yml`:
+* Explore the possibilities of GitHub by creating your own repo, adding files.
 
-```yml
-reveal:
-  transition: "slide" # none/fade/slide/convex/concave/zoom
-  theme: "black" # beige/blood/league/moon/night/serif/simple/sky/solarized/white
-```
+* See how branches work, locally and remotely and combined with pull requests.
 
-You can set globally the transitions and theme of your presentation.
+## Preparation
 
-### Export presentation
+Install the prerequisites:
 
-To export the presentation use `?print-pdf` at the end of the url to be able to save the page as PDF:
+* [`Sign in`](https://github.com/login) or [`Sign up`](https://github.com/signup) for your GitHub account.
+* Install [GitHub Desktop](https://desktop.github.com/) on your laptop.
+* Install [Visual Studio Code](https://code.visualstudio.com/download) on your laptop.
+* Add [YAML plugin (Redhat)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) in Visual Studio Code.
+* Add [indent-rainbow plugin](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) in Visual Studio Code.
 
-```html
-<url>:<port>/<base url>/?print-pdf
-```
+## Hands-on:
 
-Try it at [.../Reveal-Jekyll/?print-pdf](https://sylhare.github.io/Reveal-Jekyll/?print-pdf)
+<ol>
+<li> <details><summary>Hello</summary><blockquote>
+  <details><summary>World</summary><blockquote>
+    :smile:
+  </blockquote></details>
+</blockquote></details>
+</li>
+<li> <details><summary>Hello</summary><blockquote>
+  <details><summary>World</summary><blockquote>
+    :smile:
+  </blockquote></details>
+</blockquote></details>
+</li>
+<li> <details><summary>Hello</summary><blockquote>
+  <details><summary>World</summary><blockquote>
+    :smile:
+  </blockquote></details>
+</blockquote></details>
+</li>
+</ol>
 
 
-### Use as a gem
+* Create a new private or public repository.
+* Create README.MD as heading type `H1`.Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+* Customize README.MD as a sub-heading.
+* Customize README.MD by adding an index or [table of contents](https://www.markdownguide.org/hacks/#table-of-contents) to the sub-heading.
+* Create feature branch
+* Create PR to own main repo, explain 4 eyes principle
+* Create Github action workflow with Linux and Windows VM (explain that this is an Azure VM, 2000 minutes free per month to use)
+* Github action workflow add action download repository files
+* Github action workflow add export to text file Linux and Windows
+* Github action workflow add upload artifact
+* Github action workflow add dependency build->release
+* Github action workflow add pre-release
 
-There is a `Dockerfile` available, check it out to see how to use the theme in a Docker.
-Basically you need 4 things to make it work as a gem:
+## First code of conduct:
 
-- The Gemfile with the [reveal-jekyll gem](https://rubygems.org/gems/reveal-jekyll): `gem 'reveal-jekyll'` (specify the version with , `'~> 0.0.2'`)
-- The `index.html` which is the entrypoint of your jekyll site and presentation (with explained above configuration)
-- The `_config.yml` which defines your theme configuration.
-- The presentation, assets and content you want to display.
+![Emergency](assets/img/git-in-case-of-fire.png)
 
-And that's it you'd be good to roll!
+# Wrap-up
 
-## License
-### Reveal Jekyll
-
-[Reveal Jekyll](https://github.com/sylhare/Reveal-Jekyll/blob/master/LICENSE) MIT licensed
-
-Copyright (c) 2019-present Sylhare \o/
-
-### Reveal.js
-
-[Reveal.js](https://github.com/hakimel/reveal.js/) MIT licensed
-
-Copyright (C) 2011-present Hakim El Hattab, http://hakim.se
-
-### Jekyll
-
-[Jekyll](https://github.com/jekyll/jekyll) MIT licensed
-
-Copyright (c) 2008-present Tom Preston-Werner and Jekyll contributors
+[Questions?](https://rawworks-nl.github.io/education-github-introduction/#/5)
