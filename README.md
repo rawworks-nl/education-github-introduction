@@ -102,7 +102,7 @@ Install the prerequisites:
 <ul>
   <li> <details><summary>Codes of conduct</summary><blockquote>
     <details><summary>important; DBAD!</summary><blockquote>[License terms](https://dbad-license.org/)</blockquote></details>
-    <details><summary>In case of fire</summary><blockquote>![Emergency](assets/img/git-in-case-of-fire.png)</blockquote></details>
+    <details><summary>In case of fire</summary><blockquote>[Take action!](assets/img/git-in-case-of-fire.png)</blockquote></details>
   </blockquote></details>
   </li>
 </ul>
