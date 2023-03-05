@@ -16,7 +16,7 @@ GitHub allows you to collaborate on automation/code projects. There are several 
 
   * Collaboration: GitHub provides a platform to collaborate on code with others. Developers can work on the same codebase, manage issues, and review each other's code.
 
-  * Open source: GitHub is home to a vast number of open-source projects. These projects are available to anyone to use, modify, and contribute to, see: ['Free software, Free society' by RMS](https://www.youtube.com/watch?v=Ag1AKIl_2GM)
+  * Open source: GitHub is home to a vast number of open-source projects. These projects are available to anyone to use, modify, and contribute to with the end goal of making better software, see: ['Free software, Free society' by RMS](https://www.youtube.com/watch?v=Ag1AKIl_2GM)
 
   * Community: GitHub has a large and active community of people who share code, collaborate on projects, and help each other with technical issues.
 
