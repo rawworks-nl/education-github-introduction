@@ -4,7 +4,7 @@
 <body>
 <div class="reveal">
     <div class="slides">
-
+        {% include logo.html %}
         {% for slide in site.slides %}
         <section {% if slide.transition %} data-transition="{{ slide.transition }}" {% endif %}
                  {% if slide.background %} data-background="{{ slide.background }}" {% endif %}
