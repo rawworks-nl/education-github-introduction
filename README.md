@@ -158,8 +158,11 @@ Install the prerequisites:
     </summary>
     <blockquote>
       <details>
+        <summary>
+          Hint
+        </summary>
         <blockquote>
-          Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+           use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
         </blockquote>
       </details>
     </blockquote>
