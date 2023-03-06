@@ -3,12 +3,12 @@ slide: 2-why-github
 ---
 ## The Value of GitHub
 
-*   __Collaboration__, with anyone / anywhere
+*   __collaboration__, with anyone / anywhere
 
-*   __Contribute__, grow your skillset
+*   __contribute__, grow your skillset
 
-*   __Code management__, create effective, trackable and revertable code
+*   __code management__, create effective, trackable and revertable code
 
-*   __Community__, interact and support eachother
+*   __community__, interact and support eachother
 
-*   __Accessibility__, sharing is caring
+*   __convenience__, code is easily available
