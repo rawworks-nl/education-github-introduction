@@ -125,13 +125,49 @@ Install the prerequisites:
 ## Hands-on:
 
 <ul>
-  <li> <details><summary>Create a new public or private repository</summary><blockquote>
-    <details><summary>public</summary><blockquote>Public repositories are accessible to everyone on the internet</blockquote></details>
-    <details><summary>private</summary><blockquote>Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.</blockquote></details>
-  </blockquote></details>
+  <li>
+    <details>
+      <summary>
+        Create a new public or private repository
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Public
+          </summary>
+          <blockquote>
+            Public repositories are accessible to everyone on the internet
+          </blockquote>
+        </details>
+        <details>
+          <summary>
+            Private
+          </summary>
+          <blockquote>
+            Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
   Note: you can change the visibility whenever needed
   </li>
+  <li>
+  <details>
+    <summary>
+      Create README.MD as heading type `H1`
+    </summary>
+    <blockquote>
+      <details>
+        <blockquote>
+          Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+        </blockquote>
+      </details>
+    </blockquote>
+  </details>
+Note: you can change the visibility whenever needed
+</li>
 </ul>
+
 
 * Create README.MD as heading type `H1`.Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 * Customize README.MD as a sub-heading.
