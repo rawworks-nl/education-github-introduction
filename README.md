@@ -128,7 +128,8 @@ Install the prerequisites:
   <li>
     <details>
       <summary>
-        Create a new public or private repository
+        Create a new public or private repository.<br>
+        Note: you can change the visibility whenever needed.
       </summary>
       <blockquote>
         <details>
@@ -149,7 +150,6 @@ Install the prerequisites:
         </details>
       </blockquote>
     </details>
-  Note: you can change the visibility whenever needed
   </li>
   <li>
   <details>
@@ -162,7 +162,7 @@ Install the prerequisites:
           Hint
         </summary>
         <blockquote>
-           use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+           Read the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
         </blockquote>
       </details>
     </blockquote>
