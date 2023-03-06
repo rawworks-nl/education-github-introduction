@@ -168,20 +168,177 @@ Install the prerequisites:
       </blockquote>
     </details>
   </li>
+  <li>
+    <details>
+      <summary>
+       Customize README.MD using a sub-heading.
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Hint
+          </summary>
+          <blockquote>
+            Read the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Customize README.MD by adding an index
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Hint
+          </summary>
+          <blockquote>
+            Inspect the [table of contents](https://www.markdownguide.org/hacks/#table-of-contents) section of the Markdown guide.
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Create feature branch
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Hint
+          </summary>
+          <blockquote>
+            [Creating and deleting branches within your repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Create PR to own main repo
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Keep in mind the four eye principle.
+          </summary>
+          <blockquote>
+            [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Create GitHub action workflow
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Keep in mind; When using a Linux, Windows or MacOS VM, the free minutes quota varies, depending on OS.
+          </summary>
+          <blockquote>
+            [About billing for GitHub Actions](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Add action to the action workflow
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            add action download repository files
+          </summary>
+          <blockquote>
+            [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Add action to the action workflow
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            export to text file Linux and Windows
+          </summary>
+          <blockquote>
+            - INSERT HINT -
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Add action to the action workflow
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            upload artifact
+          </summary>
+          <blockquote>
+            [Storing workflow data as artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Add action to the action workflow
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            dependency build->release
+          </summary>
+          <blockquote>
+            - INSERT HINT -
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+       Add action to the action workflow
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            pre-release
+          </summary>
+          <blockquote>
+            - INSERT HINT -
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
 </ul>
-
-
-* Create README.MD as heading type `H1`.Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-* Customize README.MD as a sub-heading.
-* Customize README.MD by adding an index or [table of contents](https://www.markdownguide.org/hacks/#table-of-contents) to the sub-heading.
-* Create feature branch
-* Create PR to own main repo, explain 4 eyes principle
-* Create GitHub action workflow with Linux and Windows VM (explain that this is an Azure VM, 2000 minutes free per month to use)
-* GitHub action workflow add action download repository files
-* GitHub action workflow add export to text file Linux and Windows
-* GitHub action workflow add upload artifact
-* GitHub action workflow add dependency build->release
-* GitHub action workflow add pre-release
 
 ## Favorable conduct
 
