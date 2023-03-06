@@ -152,23 +152,22 @@ Install the prerequisites:
     </details>
   </li>
   <li>
-  <details>
-    <summary>
-      Create README.MD as heading type `H1`
-    </summary>
-    <blockquote>
-      <details>
-        <summary>
-          Hint
-        </summary>
-        <blockquote>
-           Read the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-        </blockquote>
-      </details>
-    </blockquote>
-  </details>
-Note: you can change the visibility whenever needed
-</li>
+    <details>
+      <summary>
+       Create README.MD as heading type `H1`
+      </summary>
+      <blockquote>
+        <details>
+          <summary>
+            Hint
+          </summary>
+          <blockquote>
+            Read the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </li>
 </ul>
 
 
