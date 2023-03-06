@@ -4,25 +4,61 @@
 * [What is GitHub?](#what-is-github)
 * [How it works](#how-it-works)
 * [Workshop exercise](#workshop)
-* [Preparation](#preparation)
-* [Hands-on lab](#hands-on)
+  * [Preparation](#preparation)
+  * [Hands-on lab](#hands-on)
+* [Wrap-up](#wrap-up)
 
+---
 
 # Why GitHub?
 
-GitHub allows you to collaborate on automation/code projects. There are several reasons why this is beneficial for you and me.
+__GitHub allows you to collaborate on automation/code projects. There are several reasons why this is beneficial for you and me.__
 
-  * Version control: Did you ever create a script and it doesn´t work anymore after some changes? Git is a powerful version control system that allows you to track and view changes to your scripts/code over time.
+GitHub is a platform that allows you to collaborate on automation/code projects. It provides a centralized location for all code and documentation, allows real-time collaboration, and facilitates sharing of code. By using GitHub for collaboration, you can improve your coding skills and knowledge while creating high-quality software.
 
-  * Collaboration: GitHub provides a platform to collaborate on code with others. Developers can work on the same codebase, manage issues, and review each other's code.
+## Version control
 
-  * Open source: GitHub is home to a vast number of open-source projects. These projects are available to anyone to use, modify, and contribute to with the end goal of making better software, see: ['Free software, Free society' by RMS](https://www.youtube.com/watch?v=Ag1AKIl_2GM)
+__Did you ever create a script and it doesn´t work anymore after some changes? 'git' is a powerful version control system that allows you to track and view changes to your scripts/code over time.__
 
-  * Community: GitHub has a large and active community of people who share code, collaborate on projects, and help each other with technical issues.
 
-  * Integration: GitHub integrates with a wide range of tools and services, making it easy to automate tasks like testing, building, and deploying code.
 
-__Overall, GitHub is a valuable tool for people who want to collaborate on code, contribute to open-source projects, and manage their code more effectively.__
+## Collaboration
+
+__GitHub provides a platform to collaborate on code with others. Developers can work on the same codebase, manage issues, and review each other's code.__
+
+
+
+## Open source
+
+__GitHub is home to a vast number of open-source projects. These projects are available to anyone to use, modify, and contribute to with the end goal of making better software, see: ['Free software, Free society' by RMS](https://www.youtube.com/watch?v=Ag1AKIl_2GM)__
+
+
+
+## Community
+
+__GitHub has a large and active community of people who share code, collaborate on projects, and help each other with technical issues.__
+
+
+
+## Integration
+
+__GitHub integrates with a wide range of tools and services, making it easy to automate tasks like testing, building, and deploying code.__
+
+
+
+## The value of GitHub
+
+  | Value | Benefits |
+  | --- | --- |
+  | Collaboration | work with anyone, anywhere, any time |
+  | Contribute | make software even more better |
+  | Code management | create effective, trackable and reversible code |
+  | Community | interact and support eachother |
+  | Convenience | code is easily available | 
+
+## Overall
+
+GitHub is a valuable tool for people who want to collaborate on code, contribute to open-source projects, and manage their code more effectively.__
 
 ---
 
@@ -33,6 +69,8 @@ __Overall, GitHub is a valuable tool for people who want to collaborate on code,
 * 'git' is a distributed version control system that allows you to track changes to files and collaborate with others on software development projects. It provides a way to manage code changes, merge changes made by multiple people, and keep track of different versions of your code over time. Git is widely used in software development and is known for its speed, flexibility, and powerful features. 'git' is created in 2005 by Linus Torvald.
 
 * GitLab is a web-based platform that provides hosting for Git repositories, similar to GitHub. However, GitLab offers additional features such as continuous integration and deployment, built-in code quality and security analysis, and project management tools. GitLab can be self-hosted or used as a cloud-based service, and it offers both free and paid plans for individuals and teams. It is a popular alternative to GitHub, particularly for organizations that require more advanced development and collaboration features. GitLab is maintained by GitLab Inc.
+
+---
 
 # How it works:
 
@@ -64,6 +102,8 @@ To fully understand and use GitHub, it's important to have a basic understanding
 
 It's a best practice to always commit and push your changes at the end of the working day/shift, so that the repo is always up to date.
 
+---
+
 # Workshop
 
 What you are going to do? 
@@ -84,7 +124,15 @@ Install the prerequisites:
 
 ## Hands-on:
 
-* Create a new private or public repository.
+<ul>
+  <li> <details><summary>Create a new public or private repository</summary><blockquote>
+    <details><summary>public</summary><blockquote>Public repositories are accessible to everyone on the internet</blockquote></details>
+    <details><summary>private</summary><blockquote>Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.</blockquote></details>
+  </blockquote></details>
+  Note: you can change the visibility whenever needed
+  </li>
+</ul>
+
 * Create README.MD as heading type `H1`.Hint use the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 * Customize README.MD as a sub-heading.
 * Customize README.MD by adding an index or [table of contents](https://www.markdownguide.org/hacks/#table-of-contents) to the sub-heading.
@@ -107,11 +155,15 @@ Install the prerequisites:
   </li>
 </ul>
 
+---
+
 # Wrap-up
 
 [Questions?](https://rawworks-nl.github.io/education-github-introduction/#/5)
 
-###### Credits
+---
+
+# Acknowledgments
 
   * Ideas and content by [Etienne Haarsma](https://github.com/Etienne-RAW) and [Berry de Jager](https://github.com/berrydejager) with the help of [chatGPT](https://chat.openai.com)
 * Visuals:
@@ -121,3 +173,5 @@ Install the prerequisites:
   * 'QR for FSFS' is created using [QR code Generator](https://www.the-qrcode-generator.com/) 
 * Bonus:
   * [Free Software, Free Society](https://www.tedxgeneva.net/talks/richard-stallman-free-software-free-society/) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at [TEDxGeneva](https://www.tedxgeneva.net/)
+
+---
