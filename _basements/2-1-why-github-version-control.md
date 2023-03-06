@@ -5,6 +5,6 @@ slide: 2-why-github
 
 Did you ever create a script and it didn´t work anymore after some changes?
 
-These days are gone when you commit your changes in the GIT repository.
+![](/assets/img/coding-fail.gif)
 
-GitHub makes use of GIT, a powerful version control system.
+Solution: use 'git' for code version control!
