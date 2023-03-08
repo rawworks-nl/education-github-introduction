@@ -3,7 +3,7 @@ slide: 2-why-github
 ---
 ## Version control
 
-Did you ever create a script and it didn´t work anymore after some changes?
+Is your script suddenly not working anymore?
 
 ![](assets/img/coding-fail.gif)
 
