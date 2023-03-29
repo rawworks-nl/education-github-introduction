@@ -124,6 +124,57 @@ Install the prerequisites:
 
 ## Hands-on:
 
+### Online
+* Create public repository on Github.com
+
+### Online
+* Create action workflow from Simple workflow template on Github.com and save as build.yml
+* Start commit to main
+
+### Local
+* Create local Github folder (not to synced drive) eg C:\Github 
+* Start Github Desktop
+* Clone repository to earlier created local Github root folder
+* Create feature branch
+* Switch to feature branch
+
+### Explaination
+* Explain how switching branches work under the hood
+
+### Local
+* Open Visual Studio Code
+* Open repository folder from File Explorer or Visual Studio Code
+* Open .github/workflows/build.yml
+* Replace script with read variable from OS and put in file as artifact action
+* Add upload artifact action
+* Add pre-release with artifact action
+* Change ubuntu-latest to ubuntu-2204
+* Save build.yml
+* Commit change in Github desktop
+* Push to origin
+* Preview Pull Request
+* Create Pull Request
+
+### Online
+* Execute create pull request
+* Validate the Actions output
+
+### Local
+* Open Visual Studio Code
+* Add YAML plugin in Visual Studio Code
+* Check error in build.yml
+* Correct error in build.yml
+* Save build.yml
+* Commit change in Github desktop
+* Push to origin
+* Preview Pull Request
+* Create Pull Request
+
+### Online
+* Execute create pull request
+* Validate the Actions output
+* Check Releases
+
 <ul>
   <li>
     <details>
