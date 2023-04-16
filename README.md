@@ -122,38 +122,92 @@ Install the prerequisites:
 * Add [YAML plugin (Redhat)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) in Visual Studio Code.
 * Add [indent-rainbow plugin](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) in Visual Studio Code.
 
+---
+
 ## Hands-on:
 
-### Online
+### Online - Create repo
 * Create public repository on Github.com
 
-### Online
-* Create action workflow from Simple workflow template on Github.com and save as build.yml
-* Start commit to main
-
-### Local
+### Local - Clone repo
 * Create local Github folder (not to synced drive) eg C:\Github 
 * Start Github Desktop
 * Clone repository to earlier created local Github root folder
-* Create feature branch
-* Switch to feature branch
 
-### Explaination
-* Explain how switching branches work under the hood
+### Online - Create action workflow
+* Create action workflow from Simple workflow template on Github.com and save as build.yml
+* Start commit to main
 
-### Local
+### Online - Check results of the workflow
+* Navigate to `Actions` and open `All workflows`
+* Select the name of the workflow `CI` in the left node.
+* Click on the last workflow run (name is the latest commit message)
+* Click on `build`
+* Inspect the outcome.
+
+### Local - Add a certain action to the workflow
 * Open Visual Studio Code
 * Open repository folder from File Explorer or Visual Studio Code
-* Open .github/workflows/build.yml
-* Replace script with read variable from OS and put in file as artifact action
-* Add upload artifact action
-* Add pre-release with artifact action
+* Open `.github/workflows/build.yml`
+* Enhance the script with the [a lookup of the OS version](https://gprivate.com/64jzj) and display it as output of the workflow
+* Save build.yml
+* Commit changes
+* Push to origin
+
+### Local - Alter action workflow to use other OS-release on action runner
+* Open `.github/workflows/build.yml`
+* Inspect which FB is active in Github Desktop
 * Change ubuntu-latest to ubuntu-2204
 * Save build.yml
-* Commit change in Github desktop
+* Commit changes
 * Push to origin
-* Preview Pull Request
-* Create Pull Request
+
+### Online - Check action runner workflow for the build.yml
+* Check the Action on Github.com
+* Check the outcome of the action workflow
+
+### Local - Revert the changes
+* Make sure that the correct type of OS-release on action runner is used again
+* Commit changes
+
+### Online - Re-check action runner workflow for the build.yml
+* Check the Action on Github.com again
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 
+
+* Add upload artifact action
+
+### Local - Create artifact action to the workflow
+* Open Visual Studio Code
+* Open repository folder from File Explorer or Visual Studio Code
+* Open `.github/workflows/build.yml`
+* Create file in action workflow and upload as artifact
+* Save build.yml
+* Commit changes to FB in Github desktop
+* Push FB to origin
+
+* Add pre-release with artifact action
+
 
 ### Online
 * Execute create pull request
@@ -174,6 +228,11 @@ Install the prerequisites:
 * Execute create pull request
 * Validate the Actions output
 * Check Releases
+
+### Online - Create pull request (PR)
+* Create PR
+* Preview PR
+* Approve PR to merge change from FB to master/main
 
 ---
 
