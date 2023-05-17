@@ -94,7 +94,7 @@ To fully understand and use GitHub, it's important to have a basic understanding
     * Start by cloning the repository to your local machine.
     * Create a new branch: Always create a new branch before starting any work.
     * Make changes: Now you can make any changes you need to make to the 'local branch' files on your laptop.
-    * Stage changes: Once you have made your changes, you need to stage them. Make sure to stage all the files which are related to specific functionality, see `breaking commits`. __---- NEEDS LINK TO RELEVANT ITEM ----__
+    * Stage changes: Once you have made your changes, you need to stage them. Make sure to stage all the files which are related to specific functionality.
     * Commit changes: Once you have staged your changes, you can commit them in your local git clone. Remember to add a meaningful commit message that describes the changes you made.
     * Merge changes: If you are working in a team, someone else may have made changes to the same branch. In that case, you will need to merge their changes with yours before pushing.
     * Push changes: Finally, you need to push your changes to the remote repository. This makes your changes available to others, publicly or privately.
@@ -109,8 +109,8 @@ It's a best practice to always commit and push your changes at the end of the wo
 What you are going to do? 
 
 * Explore the possibilities of GitHub by creating your own repo, adding files.
-
 * See how branches work, locally and remotely and combined with pull requests.
+* See how GitHub Actions work, so code can be executed automagically.
 
 ## Preparation
 
@@ -127,21 +127,33 @@ Install the prerequisites:
 ## Hands-on:
 
 ### Online - Create repo
-* Create public repository on Github.com
+
+* Create repository on [`github.com`](https://github.com)
+* Choose `Public`
+* Select `Add a README file`
+* Click `Create repository`
+
+### Online - Edit README
+
+The README file in a repository provides essential information about the project, guiding users and contributors on its purpose, installation, and usage.
+
+* Check out the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+* Customize README.MD using a sub-heading or other formatting to your liking.
 
 ### Local - Clone repo
-* Create local Github folder (not to synced drive) eg C:\Github 
+* Create local Github folder (not to synced drive) eg `C:\Github` 
 * Start Github Desktop
 * Clone repository to earlier created local Github root folder
 
 ### Online - Create action workflow
-* Create action workflow from Simple workflow template on Github.com and save as build.yml
-* Start commit to main
+* Create action workflow from `Simple workflow` template on [`github.com`](https://github.com), click `Configure`
+* Save as `build.yml` in `main` 
+* Start `Commit changes`
 
 ### Online - Check results of the workflow
 * Navigate to `Actions` and open `All workflows`
-* Select the name of the workflow `CI` in the left node.
-* Click on the last workflow run (name is the latest commit message)
+* Select the name of the workflow `CI` on the left node.
+* Click on the last workflow run (name contains the last commit message)
 * Click on `build`
 * Inspect the outcome.
 
@@ -149,16 +161,17 @@ Install the prerequisites:
 * Open Visual Studio Code
 * Open repository folder from File Explorer or Visual Studio Code
 * Open `.github/workflows/build.yml`
-* Enhance the script with the [a lookup of the OS version](https://gprivate.com/64jzj) and display it as output of the workflow
-* Save build.yml
+* Enhance the script with the [a lookup of the OS version](https://gprivate.com/64jzj)
+* Make sure that [the output is saved to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file), the filename must be `${{ github.workspace }}/release.txt` for further processing reasons
+* Save `build.yml` 
 * Commit changes
 * Push to origin
 
 ### Local - Alter action workflow to use other OS-release on action runner
 * Open `.github/workflows/build.yml`
 * Inspect which FB is active in Github Desktop
-* Change ubuntu-latest to ubuntu-2204
-* Save build.yml
+* Change `ubuntu-latest` to `ubuntu-2204`
+* Save `build.yml`
 * Commit changes
 * Push to origin
 
@@ -173,102 +186,38 @@ Install the prerequisites:
 ### Online - Re-check action runner workflow for the build.yml
 * Check the Action on Github.com again
 
+### Artifacts
 
+A GitHub artifact is a file or collection of files generated during the software development process and stored on GitHub for easy access and distribution.
 
+* Include the `upload artifact` action in the previously created workflow.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 
-
-* Add upload artifact action
-
-### Local - Create artifact action to the workflow
-* Open Visual Studio Code
-* Open repository folder from File Explorer or Visual Studio Code
+### Create `Upload a Build Artifact` artifact action to the workflow on github.com
 * Open `.github/workflows/build.yml`
-* Create file in action workflow and upload as artifact
+* Click `Edit this file` (Pro-tip: ✎)
+* Search `Upload a Build Artifact` from the marketplace.
+* Copy snippet to the `build.yml`
+* Make sure the indention is correct 
+* Delete all lines from 'Available Options:' to EOF.
+* Set `name` to: `name : Artifact RawWorks`
+* Set `path` to: `path : ${{ github.workspace }}/release.txt`
 * Save build.yml
-* Commit changes to FB in Github desktop
-* Push FB to origin
+* Validate the `Actions` output
 
-* Add pre-release with artifact action
-
-
-### Online
-* Execute create pull request
-* Validate the Actions output
-
-### Local
-* Open Visual Studio Code
-* Add YAML plugin in Visual Studio Code
-* Check error in build.yml
-* Correct error in build.yml
-* Save build.yml
-* Commit change in Github desktop
-* Push to origin
-* Preview Pull Request
-* Create Pull Request
-
-### Online
-* Execute create pull request
-* Validate the Actions output
-* Check Releases
-
-### Online - Create pull request (PR)
-* Create PR
-* Preview PR
-* Approve PR to merge change from FB to master/main
-
----
-
-
-Create a new public or private repository.
-Note: you can change the visibility whenever needed.
-
-Public repositories are accessible to everyone on the internet
-
-Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.
-
-Create README.MD as heading type `H1`
-
-Read the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-
-Customize README.MD using a sub-heading.
-
-Read the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-
-Customize README.MD by adding an index
-
-Inspect the [table of contents](https://www.markdownguide.org/hacks/#table-of-contents) section of the Markdown guide.
+# Wrap-up
 
 ## Favorable conduct
 
 <ul>
   <li> <details><summary>Codes of conduct</summary><blockquote>
+    <details><summary>In case of fire!</summary><blockquote>[Take action!](assets/img/git-in-case-of-fire.png)</blockquote></details>
+    <details><summary>Growth-oriented stance</summary><blockquote>[Developer mindset by Coding55](https://github.com/Coding55/developer-mindset)</blockquote></details>
     <details><summary>important; DBAD!</summary><blockquote>[License terms](https://dbad-license.org/)</blockquote></details>
-    <details><summary>In case of fire</summary><blockquote>[Take action!](assets/img/git-in-case-of-fire.png)</blockquote></details>
   </blockquote></details>
   </li>
 </ul>
 
----
-
-# Wrap-up
+## Q&A
 
 [Questions?](https://rawworks-nl.github.io/education-github-introduction/#/5)
 
@@ -279,7 +228,6 @@ Inspect the [table of contents](https://www.markdownguide.org/hacks/#table-of-co
   * Ideas and content by [Etienne Haarsma](https://github.com/Etienne-RAW) and [Berry de Jager](https://github.com/berrydejager) with the help of [chatGPT](https://chat.openai.com)
 * Visuals:
   * ['Reveal-Jekyll template'](https://github.com/sylhare/Reveal-Jekyll) created by [Sylhare](https://github.com/sylhare)
-  * ['git workflow'](https://twitter.com/allison_horst/status/1563210538510737409) created by [Allison Horst](https://github.com/allisonhorst)
   * ['In case of fire'](https://github.com/louim/in-case-of-fire) created by [Louis-Michel Couture](https://github.com/louim)
   * 'QR for FSFS' is created using [QR code Generator](https://www.the-qrcode-generator.com/) 
 * Bonus:
