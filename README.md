@@ -54,7 +54,7 @@ __GitHub integrates with a wide range of tools and services, making it easy to a
   | Contribute | make software even more better |
   | Code management | create effective, trackable and reversible code |
   | Community | interact and support eachother |
-  | Convenience | code is easily available | 
+  | Convenience | code is easily available |
 
 ## Overall
 
@@ -106,7 +106,7 @@ It's a best practice to always commit and push your changes at the end of the wo
 
 # Workshop
 
-What you are going to do? 
+What you are going to do?
 
 * Explore the possibilities of GitHub by creating your own repo, adding files.
 * See how branches work, locally and remotely and combined with pull requests.
@@ -141,13 +141,13 @@ The README file in a repository provides essential information about the project
 * Customize README.MD using a sub-heading or other formatting to your liking.
 
 ### Local - Clone repo
-* Create local Github folder (not to synced drive) eg `C:\Github` 
+* Create local Github folder (not to synced drive) eg `C:\Github`
 * Start Github Desktop
 * Clone repository to earlier created local Github root folder
 
 ### Online - Create action workflow
 * Create action workflow from `Simple workflow` template on [`github.com`](https://github.com), click `Configure`
-* Save as `build.yml` in `main` 
+* Save as `build.yml` in `main`
 * Start `Commit changes`
 
 ### Online - Check results of the workflow
@@ -163,7 +163,7 @@ The README file in a repository provides essential information about the project
 * Open `.github/workflows/build.yml`
 * Enhance the script with the [a lookup of the OS version](https://gprivate.com/64jzj)
 * Make sure that [the output is saved to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file), the filename must be `${{ github.workspace }}/release.txt` for further processing reasons
-* Save `build.yml` 
+* Save `build.yml`
 * Commit changes
 * Push to origin
 
@@ -197,7 +197,7 @@ A GitHub artifact is a file or collection of files generated during the software
 * Click `Edit this file` (Pro-tip: ✎)
 * Search `Upload a Build Artifact` from the marketplace.
 * Copy snippet to the `build.yml`
-* Make sure the indention is correct 
+* Make sure the indention is correct
 * Delete all lines from 'Available Options:' to EOF.
 * Set `name` to: `name : Artifact RawWorks`
 * Set `path` to: `path : ${{ github.workspace }}/release.txt`
@@ -229,7 +229,7 @@ A GitHub artifact is a file or collection of files generated during the software
 * Visuals:
   * ['Reveal-Jekyll template'](https://github.com/sylhare/Reveal-Jekyll) created by [Sylhare](https://github.com/sylhare)
   * ['In case of fire'](https://github.com/louim/in-case-of-fire) created by [Louis-Michel Couture](https://github.com/louim)
-  * 'QR for FSFS' is created using [QR code Generator](https://www.the-qrcode-generator.com/) 
+  * 'QR for FSFS' is created using [QR code Generator](https://www.the-qrcode-generator.com/)
 * Bonus:
   * [Free Software, Free Society](https://www.tedxgeneva.net/talks/richard-stallman-free-software-free-society/) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at [TEDxGeneva](https://www.tedxgeneva.net/)
 
