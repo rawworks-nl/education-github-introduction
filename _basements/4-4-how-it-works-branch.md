@@ -1,7 +1,7 @@
 ---
 slide: 4-how-it-works
 ---
-## Branche
+## Branch
 
 To isolate changes, use the [branching](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches).
 
