@@ -86,21 +86,9 @@ To fully understand and use GitHub, it's important to have a basic understanding
 * Wiki
 * Security
 * Insights
-* Settings (where the repo can be deleted, confirmation)
+* Settings (dangerzone for repo as it can be deleted)
 
-
-  * Text-based on [markdown language](https://www.markdownguide.org/cheat-sheet/)
-  * Clone the repository
-    * Start by cloning the repository to your local machine.
-    * Create a new branch: Always create a new branch before starting any work.
-    * Make changes: Now you can make any changes you need to make to the 'local branch' files on your laptop.
-    * Stage changes: Once you have made your changes, you need to stage them. Make sure to stage all the files which are related to specific functionality.
-    * Commit changes: Once you have staged your changes, you can commit them in your local git clone. Remember to add a meaningful commit message that describes the changes you made.
-    * Merge changes: If you are working in a team, someone else may have made changes to the same branch. In that case, you will need to merge their changes with yours before pushing.
-    * Push changes: Finally, you need to push your changes to the remote repository. This makes your changes available to others, publicly or privately.
-    * Pull changes: Before you start working again, you should always pull the latest changes from the remote repository.
-
-It's a best practice to always commit and push your changes at the end of the working day/shift, so that the repo is always up to date.
+It's a best practice to always commit and push your changes at the end of the working day/shift, so that your remote repo is always up to date.
 
 ---
 
@@ -109,8 +97,8 @@ It's a best practice to always commit and push your changes at the end of the wo
 What you are going to do?
 
 * Explore the possibilities of GitHub by creating your own repo, adding files.
-* See how branches work, locally and remotely and combined with pull requests.
 * See how GitHub Actions work, so code can be executed automagically.
+* Execute GitHub Actions and fix any given issues.
 
 ## Preparation
 
@@ -161,7 +149,7 @@ The README file in a repository provides essential information about the project
 * Open Visual Studio Code
 * Open repository folder from File Explorer or Visual Studio Code
 * Open `.github/workflows/build.yml`
-* Enhance the script with the [a lookup of the OS version](https://gprivate.com/64jzj)
+* Enhance the script with the [a lookup of the OS version](https://help.ubuntu.com/community/CheckingYourUbuntuVersion)
 * Make sure that [the output is saved to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file), the filename must be `${{ github.workspace }}/release.txt` for further processing reasons
 * Save `build.yml`
 * Commit changes
@@ -170,7 +158,7 @@ The README file in a repository provides essential information about the project
 ### Local - Alter action workflow to use other OS-release on action runner
 * Open `.github/workflows/build.yml`
 * Inspect which FB is active in Github Desktop
-* Change `ubuntu-latest` to `ubuntu-2204`
+* Change `ubuntu-latest` to `ubuntu-1337`
 * Save `build.yml`
 * Commit changes
 * Push to origin
@@ -210,16 +198,16 @@ A GitHub artifact is a file or collection of files generated during the software
 
 <ul>
   <li> <details><summary>Codes of conduct</summary><blockquote>
-    <details><summary>In case of fire!</summary><blockquote>[Take action!](assets/img/git-in-case-of-fire.png)</blockquote></details>
-    <details><summary>Growth-oriented stance</summary><blockquote>[Developer mindset by Coding55](https://github.com/Coding55/developer-mindset)</blockquote></details>
-    <details><summary>important; DBAD!</summary><blockquote>[License terms](https://dbad-license.org/)</blockquote></details>
+    <details><summary>In case of fire!</summary><blockquote><img src="https://rawworks-nl.github.io/education-github-introduction/assets/img/git-in-case-of-fire.png"></blockquote></details>
+    <details><summary>Growth-oriented stance</summary><blockquote><a href=https://github.com/Coding55/developer-mindset target="_blank">Developer mindset by Coding55</a></blockquote></details>
+    <details><summary>Important; License terms</summary><blockquote><a href=https://dbad-license.org target="_blank">DBAD</a></blockquote></details>
   </blockquote></details>
   </li>
 </ul>
 
 ## Q&A
 
-[Questions?](https://rawworks-nl.github.io/education-github-introduction/#/5)
+[Questions?](https://github.com/rawworks-nl/education-github-introduction/issues)
 
 ---
 
@@ -230,6 +218,8 @@ A GitHub artifact is a file or collection of files generated during the software
   * ['Reveal-Jekyll template'](https://github.com/sylhare/Reveal-Jekyll) created by [Sylhare](https://github.com/sylhare)
   * ['In case of fire'](https://github.com/louim/in-case-of-fire) created by [Louis-Michel Couture](https://github.com/louim)
   * 'QR for FSFS' is created using [QR code Generator](https://www.the-qrcode-generator.com/)
+* Audio:
+  * 'Get ready intro' is curated by [Krafty Kuts](https://kraftykuts.com/)
 * Bonus:
   * [Free Software, Free Society](https://www.tedxgeneva.net/talks/richard-stallman-free-software-free-society/) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at [TEDxGeneva](https://www.tedxgeneva.net/)
 
