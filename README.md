@@ -149,7 +149,7 @@ The README file in a repository provides essential information about the project
 * Open Visual Studio Code
 * Open repository folder from File Explorer or Visual Studio Code
 * Open `.github/workflows/build.yml`
-* Enhance the script with the [a lookup of the OS version](https://help.ubuntu.com/community/CheckingYourUbuntuVersion)
+* Enhance the script with the a lookup of the OS version, put the following in the one-liner `uname -a`
 * Make sure that [the output is saved to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file), the filename must be `${{ github.workspace }}/release.txt` for further processing reasons
 * Save `build.yml`
 * Commit changes
