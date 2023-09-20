@@ -134,7 +134,7 @@ The README file in a repository provides essential information about the project
 * Clone repository to earlier created local Github root folder
 
 ### Online - Create action workflow
-* Create action workflow from `Simple workflow` template on [`github.com`](https://github.com), click `Configure`
+* Create action workflow, click on the `Actions` tab, click on `Simple workflow` template on [`github.com`](https://github.com), click `Configure`
 * Save as `build.yml` in `main`
 * Start `Commit changes`
 
