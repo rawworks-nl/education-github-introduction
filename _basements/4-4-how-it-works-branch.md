@@ -13,4 +13,4 @@ To isolate changes, use the [branching](https://docs.github.com/en/desktop/contr
 
 ---
 
-When switching branches, 'git' can change files.
+When switching branches, 'git' promptly updates the files.
