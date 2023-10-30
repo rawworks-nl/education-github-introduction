@@ -1,9 +1,9 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: "https://clemy.nl/5a"
 favicon: assets/favicon.ico # Icon displayed in the tab
 
 reveal:
-  title: "RawWorks - Education - GitHub Introduction"
+  title: "Boekbespreking - Mortina"
   transition: "none" # none/fade/slide/convex/concave/zoom
   theme: "raw" # black/beige/blood/league/moon/night/serif/simple/sky/solarized/white/raw
   number: true
